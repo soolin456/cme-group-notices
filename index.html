@@ -1,0 +1,131 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notices</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .tabs {
+                display: flex;
+                margin-bottom: 20px;
+            }
+            .tabs button {
+                flex: 1;
+                padding: 10px;
+                cursor: pointer;
+                border: 1px solid #ccc;
+                background-color: #f1f1f1;
+                transition: background-color 0.3s ease;
+            }
+            .tabs button:hover {
+                background-color: #ddd;
+            }
+            .tabs button.active {
+                background-color: #ccc;
+            }
+            .tab-content {
+                display: none;
+            }
+            .tab-content.active {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tabs">
+            <button class="tab-link" onclick="showTab('cme')">CME Group</button>
+            <button class="tab-link" onclick="showTab('hkfe')">HKFE</button>
+            <button class="tab-link" onclick="showTab('eurex')">EUREX</button>
+            <button class="tab-link" onclick="showTab('cboe')">CBOE</button>
+            <button class="tab-link" onclick="showTab('ose')">OSE</button>
+            <button class="tab-link" onclick="showTab('sgx')">SGX</button>
+        </div>
+        <div id="cme" class="tab-content">
+            <h1>CME Group Notices</h1>
+            <ul>
+    <li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/01/20240101.html" target="_blank">2024-01-01</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/01/20240108.html" target="_blank">2024-01-08</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/01/20240115.html" target="_blank">2024-01-15</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/01/20240122.html" target="_blank">2024-01-22</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/01/20240129.html" target="_blank">2024-01-29</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/02/20240202.html" target="_blank">2024-02-02</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/02/20240205.html" target="_blank">2024-02-05</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/02/20240212.html" target="_blank">2024-02-12</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/02/20240219.html" target="_blank">2024-02-19</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/02/20240226.html" target="_blank">2024-02-26</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/03/20240304.html" target="_blank">2024-03-04</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/03/20240308.html" target="_blank">2024-03-08</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/03/20240311.html" target="_blank">2024-03-11</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/03/20240318.html" target="_blank">2024-03-18</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/03/20240325.html" target="_blank">2024-03-25</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/04/20240401.html" target="_blank">2024-04-01</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/04/20240408.html" target="_blank">2024-04-08</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/04/20240415.html" target="_blank">2024-04-15</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/04/20240422.html" target="_blank">2024-04-22</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/04/20240429.html" target="_blank">2024-04-29</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/05/20240506.html" target="_blank">2024-05-06</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/05/20240513.html" target="_blank">2024-05-13</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/05/20240520.html" target="_blank">2024-05-20</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/05/20240527.html" target="_blank">2024-05-27</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/06/20240603.html" target="_blank">2024-06-03</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/06/20240610.html" target="_blank">2024-06-10</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/06/20240617.html" target="_blank">2024-06-17</a></li>
+<li><a href="https://www.cmegroup.com/notices/electronic-trading/2024/06/20240624.html" target="_blank">2024-06-24</a></li>
+
+            </ul>
+        </div>
+        <div id="hkfe" class="tab-content">
+            <h1>HKFE Notices</h1>
+            <ul>
+                <!-- HKFE notices will be added here -->
+            </ul>
+        </div>
+        <div id="eurex" class="tab-content">
+            <h1>EUREX Notices</h1>
+            <ul>
+                <!-- EUREX notices will be added here -->
+            </ul>
+        </div>
+        <div id="cboe" class="tab-content">
+            <h1>CBOE Notices</h1>
+            <ul>
+                <!-- CBOE notices will be added here -->
+            </ul>
+        </div>
+        <div id="ose" class="tab-content">
+            <h1>OSE Notices</h1>
+            <ul>
+                <!-- OSE notices will be added here -->
+            </ul>
+        </div>
+        <div id="sgx" class="tab-content">
+            <h1>SGX Notices</h1>
+            <ul>
+                <!-- SGX notices will be added here -->
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function showTab(tabId) {
+                var tabs = document.getElementsByClassName('tab-content');
+                for (var i = 0; i < tabs.length; i++) {
+                    tabs[i].classList.remove('active');
+                }
+                document.getElementById(tabId).classList.add('active');
+
+                var tabLinks = document.getElementsByClassName('tab-link');
+                for (var i = 0; i < tabLinks.length; i++) {
+                    tabLinks[i].classList.remove('active');
+                }
+                event.currentTarget.classList.add('active');
+            }
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('.tab-link').click();
+            });
+        </script>
+    </body>
+    </html>
+    
